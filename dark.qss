@@ -1,0 +1,34 @@
+/* Global */
+QWidget {
+    background-color: #121212;
+    color: #EAEAEA;
+    font-family: Segoe UI;
+    font-size: 14px;
+}
+
+/* Chat area */
+QTextEdit {
+    background-color: #1E1E1E;
+    border: 1px solid #2A2A2A;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+/* Input box */
+QLineEdit {
+    background-color: #1E1E1E;
+    border: 1px solid #2A2A2A;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #1F1F1F;
+    border-radius: 8px;
+    padding: 8px 14px;
+}
+
+QPushButton:hover {
+    background-color: #2A2A2A;
+}

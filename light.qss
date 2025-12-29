@@ -1,0 +1,99 @@
+/* =========================
+   GLOBAL
+   ========================= */
+
+QWidget {
+    background-color: #f5f5f5;
+    color: #1e1e1e;
+    font-family: "Segoe UI";
+    font-size: 14px;
+}
+
+/* =========================
+   TEXT AREAS
+   ========================= */
+
+QTextEdit {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    padding: 8px;
+    color: #1e1e1e;
+}
+
+QLineEdit {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    padding: 8px;
+    color: #1e1e1e;
+}
+
+/* =========================
+   BUTTONS
+   ========================= */
+
+QPushButton {
+    background-color: #e6e6e6;
+    border: 1px solid #c0c0c0;
+    border-radius: 6px;
+    padding: 6px 12px;
+    color: #1e1e1e;
+}
+
+QPushButton:hover {
+    background-color: #dcdcdc;
+}
+
+QPushButton:pressed {
+    background-color: #cfcfcf;
+}
+
+/* =========================
+   CHECKBOX
+   ========================= */
+
+QCheckBox {
+    spacing: 6px;
+}
+
+QCheckBox::indicator {
+    width: 16px;
+    height: 16px;
+}
+
+/* =========================
+   COMBOBOX
+   ========================= */
+
+QComboBox {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    selection-background-color: #d0d0d0;
+}
+
+/* =========================
+   SCROLLBAR
+   ========================= */
+
+QScrollBar:vertical {
+    background: #f0f0f0;
+    width: 10px;
+    margin: 2px;
+}
+
+QScrollBar::handle:vertical {
+    background: #c0c0c0;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #a8a8a8;
+}
