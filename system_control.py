@@ -1,3 +1,4 @@
+import os
 import ctypes
 import subprocess
 
@@ -36,16 +37,10 @@ def sleep_system():
 
 
 def restart_system():
-    subprocess.call(
-        ["shutdown", "/r", "/t", "0"],
-        stdout=subprocess.DEVNULL,
-        stderr=subprocess.DEVNULL
-    )
+    os.system("shutdown /r /f /t 0")
+    
+    
 
 
 def shutdown_system():
-    subprocess.call(
-        ["shutdown", "/s", "/t", "0"],
-        stdout=subprocess.DEVNULL,
-        stderr=subprocess.DEVNULL
-    )
+    os.system("shutdown /s /f /t 0")
